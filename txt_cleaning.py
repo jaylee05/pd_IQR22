@@ -43,6 +43,7 @@ f = open("Desktop/QR22/pd_IQR22/testFile.txt", "w")
 f.write(contents)
 f.close()
 
+#below code reduces iterations to ~50000
 '''
 f = open("Desktop/QR22/pd_IQR22/testFile.txt")
 contents = f.read()
