@@ -23,11 +23,16 @@ f.write(contents)
 f.close()
 #this all works ^^
 
+#split at punctuation
+
 #more testing
 #change keyword
 f = open("Desktop/QR22/pd_IQR22/testFile.txt")
 contents = f.read()
-contents.replace("\"", "")
+contents.replace('"', " ")
+contents.replace(".", " ")
+contents.replace(",", " ")
+contents.replace("!", " ")
 contents.replace("&amp", " ")
 contents.replace("...", " ")
 contents.replace("\n", "")
@@ -37,3 +42,53 @@ f.close()
 f = open("Desktop/QR22/pd_IQR22/testFile.txt", "w")
 f.write(contents)
 f.close()
+
+'''
+f = open("Desktop/QR22/pd_IQR22/testFile.txt")
+contents = f.read()
+contents.replace('"', " ")
+contents.replace(".", " ")
+contents.replace(",", " ")
+contents.replace("!", " ")
+contents.replace("&amp", " ")
+contents.replace("...", " ")
+contents.replace("\n", "")
+contents.replace("  ", " ")
+contents.replace("   ", " ")
+f.close()
+f = open("Desktop/QR22/pd_IQR22/testFile.txt", "w")
+f.write(contents)
+f.close()
+contents
+content
+contents
+type(contents)
+len(contents)
+contents.replace('\n',' ')
+contents.replace('"',' ')
+contents.replace('”',' ')
+contents.replace('.',' ')
+contents.replace(',',' ')
+c = contents.replace(',',' ')
+c = c.replace('\n',' ')
+c
+c = c.replace('”',' ')
+c = c.replace('"',' ')
+c
+c = c.replace('.',' ')
+c = c.replace(',',' ')
+c
+c = c.replace('  ',' ')
+c
+c = c.replace('  ',' ')
+c
+c = c.replace('&amp','and')
+c
+c = c.replace('“',' ')
+c
+c = c.replace('  ',' ')
+c
+c = c.replace(';',' ')
+c = c.replace('!',' ')
+c
+'''
