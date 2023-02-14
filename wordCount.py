@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 #get an array of every word in data set
 words = []
-f = open('tweetsAsText.txt')
+f = open('testFile.txt')
 #need to make the whole file the same case for analysis on this end...
 
 for word in f.read().split():

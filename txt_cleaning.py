@@ -15,8 +15,9 @@ contents = file.read()
 #close file because life
 file.close()
 #put everything in lower case
+#~11,000 number of unique instances reduction!!!!!!!
 contents = contents.lower()
 #write to file
-f = open("testFile.txt", "x")
+f = open("Desktop/QR22/pd_IQR22/testFile.txt", "x")
 f.write(contents)
 f.close()
