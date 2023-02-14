@@ -13,6 +13,11 @@ words = []
 f = open('tweetsAsText.txt')
 for word in f.read().split():
     words.append(word)
+
+#right now all this does nothing because all words are technically unique
+
+#bruh
+
 #make into set
 words_as_set = set(words)
 #back into a list, because sets are not subscriptable
