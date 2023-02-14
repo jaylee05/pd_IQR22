@@ -6,7 +6,7 @@ What does this code do?
 last modified: 13.02.2023
 '''
 import numpy as np
-import matplotlib as plt
+import matplotlib.pyplot as plt
 
 #get an array of every word in data set
 
@@ -14,4 +14,4 @@ import matplotlib as plt
 
 #do some more stuff
 
-#plot it
+#plot its
