@@ -16,3 +16,7 @@ contents = file.read()
 file.close()
 #put everything in lower case
 contents = contents.lower()
+#write to file
+f = open("testFile.txt", "x")
+f.write(contents)
+f.close()
