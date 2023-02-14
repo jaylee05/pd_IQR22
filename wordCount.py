@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #get an array of every word in data set
-words =[]
+words = []
 #make into set
 words_as_set = set(words)
 
