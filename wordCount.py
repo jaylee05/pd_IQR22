@@ -7,6 +7,7 @@ last modified: 13.02.2023
 '''
 import numpy as np
 import matplotlib.pyplot as plt
+from tqdm import tqdm
 
 #get an array of every word in data set
 words = []
@@ -26,7 +27,7 @@ words_as_set = set(words)
 word_set_as_list = list(words_as_set)
 #how many times does each word in the set occur
 counts = []
-for i in range(len(word_set_as_list)):
+for i in tqdm(range(len(word_set_as_list))):
     counts.append(words.count(word_set_as_list[i]))
 
 #should count how many times words of different characters occur?
