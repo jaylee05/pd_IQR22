@@ -16,6 +16,8 @@ for word in f.read().split():
 #make into set
 words_as_set = set(words)
 
-#do some more stuff
-
+#how many times does each word in the set occur
+counts = []
+for i in range(len(words_as_set)):
+    counts.append[words.count(words_as_set[i])]
 #plot its
