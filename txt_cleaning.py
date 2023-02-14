@@ -24,6 +24,7 @@ f.close()
 #this all works ^^
 
 #more testing
+#change keyword
 f = open("Desktop/QR22/pd_IQR22/testFile.txt")
 contents = f.read()
 contents.replace("\"", "")
