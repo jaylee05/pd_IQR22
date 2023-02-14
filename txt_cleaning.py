@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #open file, set to read mode, text file
-file = open("Desktop/QR22/pd_IQR22/tweetsAsText.txt", "r", "t")
+file = open("Desktop/QR22/pd_IQR22/tweetsAsText.txt", "r")
 #read contents
 contents = file.read()
 #close file because life
