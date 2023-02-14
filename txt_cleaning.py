@@ -24,6 +24,10 @@ f.close()
 #this all works ^^
 
 #more testing
+f = open("Desktop/QR22/pd_IQR22/testFile.txt", "w", "t")
+contents = file.read()
 contents.replace("\"", "")
 contents.replace("&amp", "")
 contents.replace("  ", " ")
+f.write(contents)
+f.close()
