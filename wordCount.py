@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 #get an array of every word in data set
 words = []
-f = open('trumpTweets.txt')
+f = open('tweetsAsText.txt')
 for word in f.read().split():
     words.append(word)
 #make into set
