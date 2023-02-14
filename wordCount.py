@@ -20,5 +20,5 @@ word_set_as_list = list(words_as_set)
 #how many times does each word in the set occur
 counts = []
 for i in range(len(word_set_as_list)):
-    counts.append[words.count(word_set_as_list[i])]
+    counts.append(words.count(word_set_as_list[i]))
 #plot its
