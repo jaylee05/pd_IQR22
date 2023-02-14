@@ -29,3 +29,4 @@ counts = []
 for i in range(len(word_set_as_list)):
     counts.append(words.count(word_set_as_list[i]))
 #plot its
+plt.hist(counts)
