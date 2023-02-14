@@ -24,8 +24,8 @@ f.close()
 #this all works ^^
 
 #more testing
-f = open("Desktop/QR22/pd_IQR22/testFile.txt", "w", "t")
-contents = file.read()
+f = open("Desktop/QR22/pd_IQR22/testFile.txt", "w")
+contents = f.read()
 contents.replace("\"", "")
 contents.replace("&amp", "")
 contents.replace("  ", " ")
