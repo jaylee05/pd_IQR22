@@ -28,5 +28,8 @@ word_set_as_list = list(words_as_set)
 counts = []
 for i in range(len(word_set_as_list)):
     counts.append(words.count(word_set_as_list[i]))
-#plot its
+
+#should count how many times words of different characters occur?
+
+#plot counts
 plt.hist(counts)
