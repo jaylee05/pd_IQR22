@@ -21,3 +21,9 @@ contents = contents.lower()
 f = open("Desktop/QR22/pd_IQR22/testFile.txt", "x")
 f.write(contents)
 f.close()
+#this all works ^^
+
+#more testing
+contents.replace("\"", "")
+contents.replace("&amp", "")
+contents.replace("  ", " ")
